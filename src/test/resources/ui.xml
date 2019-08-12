@@ -6,7 +6,7 @@
     </listeners>
     <test name="MainTest" parallel="false">
         <classes>
-            <class name="IAmLuckyTest">
+            <class name="UiTest">
                 <methods>
                     <include name="checkSearchResults"/>
                 </methods>

@@ -10,7 +10,7 @@ import util.JsonDataReader;
 
 import java.util.Map;
 
-public class IAmLuckyTest extends BaseTest {
+public class UiTest extends BaseTest {
 
 
     protected WebDriver driver;
