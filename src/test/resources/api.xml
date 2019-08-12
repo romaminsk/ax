@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ApiTest">
+
+    <test name="ApiTest" parallel="false">
+        <classes>
+            <class name="ApiTest">
+                <methods>
+                    <include name="checkCurrency"/>
+                    <include name="checkRussianCharacters"/>
+                    <include name="checkTitlesAmount"/>
+                    <include name="checkPriceCorrectness"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

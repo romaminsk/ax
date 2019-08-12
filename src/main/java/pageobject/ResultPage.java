@@ -17,7 +17,7 @@ public class ResultPage extends BasePage {
     @FindBy(xpath = "//g-scrolling-carousel[@class = 'COEoid']")
     private WebElement videoScrolling;
 
-    @FindBy(xpath = "//g-scrolling-carousel[@jsname = 'mILnFc']")
+    @FindBy(xpath = "//div[@class = 'img-brk']")
     private WebElement imageScrolling;
 
 
